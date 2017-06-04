@@ -24,4 +24,3 @@ export * from './api/show-hide';
 export * from './api/style';
 
 export * from './responsive/responsive-activation';
-export * from './_module';

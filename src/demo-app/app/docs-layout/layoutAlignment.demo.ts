@@ -10,9 +10,9 @@ import {Component} from '@angular/core';
   templateUrl: 'layoutAlignment.demo.html'
 })
 export class DemoLayoutAlignment {
-  public direction = "row";
-  public mainAxis = "space-around";
-  public crossAxis = "center";
+  public direction = 'row';
+  public mainAxis = 'space-around';
+  public crossAxis = 'center';
 
   layoutAlign () {
       return `${this.mainAxis} ${this.crossAxis}`;

@@ -17,9 +17,9 @@ export class DemosGithubIssues {
 import {NgModule}         from '@angular/core';
 import {SplitModule} from './splitter/split.module';
 
-import {DemoIssue5345}    from "./issue.5345.demo";
-import {DemoIssue9897}    from "./issue.9897.demo";
-import {DemoIssue135}     from "./issue.135.demo";
+import {DemoIssue5345}    from './issue.5345.demo';
+import {DemoIssue9897}    from './issue.9897.demo';
+import {DemoIssue135}     from './issue.135.demo';
 import {DemoIssue181}     from './issue.181.demo';
 import {DemoIssue197}     from './issue.197.demo';
 import {DemoIssue266}     from './issue.266.demo';

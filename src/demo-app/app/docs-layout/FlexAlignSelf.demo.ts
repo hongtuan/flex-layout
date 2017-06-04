@@ -10,7 +10,7 @@ import {Component} from '@angular/core';
   templateUrl: 'flexAlignSelf.demo.html'
 })
 export class DemoFlexAlignSelf {
-  public alignTo = "center";
+  public alignTo = 'center';
 
   toggleAlignment () {
       let j = ALIGN_OPTIONS.indexOf(this.alignTo);
@@ -18,4 +18,4 @@ export class DemoFlexAlignSelf {
   }
 }
 
-const ALIGN_OPTIONS = ["auto", "start", "center", "baseline", "end", "stretch"];
+const ALIGN_OPTIONS = ['auto', 'start', 'center', 'baseline', 'end', 'stretch'];

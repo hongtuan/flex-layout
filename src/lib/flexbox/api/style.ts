@@ -107,12 +107,12 @@ export class StyleDirective extends NgStyle implements DoCheck, OnChanges, OnDes
     super(_differs, _ngEl, _renderer);
 
     // Build adapter, `cacheInput()` interceptor, and get current inline style if any
-    this._buildAdapter(monitor, _ngEl, _renderer);
-    this._base.cacheInput('style', _ngEl.nativeElement.getAttribute("style"), true);
+    this._buildAdapter(this.monitor, _ngEl, _renderer);
+    this._base.cacheInput('style', _ngEl.nativeElement.getAttribute('style'), true);
   }
 
   // ******************************************************************
-  // Lifecycle Hookks
+  // Lifecycle Hooks
   // ******************************************************************
 
   /**
@@ -164,7 +164,7 @@ export class StyleDirective extends NgStyle implements DoCheck, OnChanges, OnDes
    * `ngStyle` which does the style injections...
    */
   protected _updateStyle(value?: NgStyleType) {
-    let style = value || this._base.queryInput("style") || '';
+    let style = value || this._base.queryInput('style') || '';
     if (this._base.mqActivation) {
       style = this._base.mqActivation.activatedInput;
     }
