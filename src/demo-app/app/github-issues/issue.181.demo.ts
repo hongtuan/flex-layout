@@ -1,6 +1,4 @@
 import {Component} from '@angular/core';
-import 'rxjs/add/operator/filter';
-
 
 @Component({
   selector: 'demo-issue-181',

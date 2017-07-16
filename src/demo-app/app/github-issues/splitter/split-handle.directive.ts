@@ -1,16 +1,6 @@
-<<<<<<< HEAD
-import {Directive, ElementRef, Output} from '@angular/core';
-import {Observable} from 'rxjs/Observable';
-import 'rxjs/add/operator/takeUntil';
-
-======
-=
 import {Directive, ElementRef, Output} from '@angular/core';
 import {Observable} from 'rxjs/Observable';
 
->>>>>>>
-5925817...fix
-lint
 import 'rxjs/add/observable/fromEvent';
 import 'rxjs/add/operator/takeUntil';
 import 'rxjs/add/operator/switchMap';

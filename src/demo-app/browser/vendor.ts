@@ -7,6 +7,3 @@ import '@angular/common';
 import '@angular/forms';
 import '@angular/router';
 import '@angular/material';
-
-// RxJS
-import 'rxjs/add/operator/map';
